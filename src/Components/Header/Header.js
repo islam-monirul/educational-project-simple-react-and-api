@@ -5,18 +5,18 @@ import './Header.css';
 
 const Header = () => {
      const defaultStyle = {
-          color: "#fff",
+          color: "#000",
           textDecoration: "none"
      };
 
      const activeStyle = {
-          color: "skyblue"
+          color: "#0d6efd"
      }
 
      return (
-          <Navbar bg="dark" variant="dark" expand="lg">
+          <Navbar bg="light" style={{borderBottom: "1px solid #f6f6f6"}} expand="lg">
                <Container>
-                    <Navbar.Brand>React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand style={{color: "#0d6efd"}}>Coding Universe</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                          <Nav className="ms-auto">
