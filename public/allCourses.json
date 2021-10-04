@@ -1,0 +1,82 @@
+[
+     {
+          "id" : 1,
+          "name" : "JavaScript Fundamentals",
+          "duration" : 50,
+          "rating" : 4.6,
+          "enroll" : 1200,
+          "price" : 3000,
+          "details" : "Best Possible JavaScript course that you can get",
+          "img" : "./images/js_fundamentals.jpg"
+     },
+     {
+          "id" : 2,
+          "name" : "React js Fundamentals",
+          "duration" : 30,
+          "rating" : 4.4,
+          "enroll" : 1100,
+          "price" : 3500,
+          "details" : "Best Possible React course that you can get",
+          "img" : "./images/reactjs.jpg"
+     },
+     {
+          "id" : 3,
+          "name" : "Vue js Fundamentals",
+          "duration" : 40,
+          "rating" : 4.8,
+          "enroll" : 2000,
+          "price" : 3900,
+          "details" : "Best Possible Vue course that you can get",
+          "img" : "./images/vuejs.jpg"
+     },
+     {
+          "id" : 4,
+          "name" : "Node js Fundamentals",
+          "duration" : 36,
+          "rating" : 4.2,
+          "enroll" : 1560,
+          "price" : 4000,
+          "details" : "Best Possible Node course that you can get",
+          "img" : "./images/nodejs.jpg"
+     },
+     {
+          "id" : 5,
+          "name" : "C Programming Fundamentals",
+          "duration" : 26,
+          "rating" : 4.5,
+          "enroll" : 1500,
+          "price" : 2000,
+          "details" : "Best Possible C course that you can get",
+          "img" : "./images/cprog.jpg"
+     },
+     {
+          "id" : 6,
+          "name" : "PHP Fundamentals",
+          "duration" : 27,
+          "rating" : 4.8,
+          "enroll" : 1160,
+          "price" : 5000,
+          "details" : "Best Possible PHP course that you can get",
+          "img" : "./images/php.jpg"
+     },
+     {
+          "id" : 7,
+          "name" : "Python Fundamentals",
+          "duration" : 36,
+          "rating" : 4.3,
+          "enroll" : 2560,
+          "price" : 3000,
+          "details" : "Best Possible Python course that you can get",
+          "img" : "./images/python.jpg"
+     },
+     {
+          "id" : 8,
+          "name" : "Java Fundamentals",
+          "duration" : 46,
+          "rating" : 4.6,
+          "enroll" : 3560,
+          "price" : 4300,
+          "details" : "Best Possible Java course that you can get",
+          "img" : "./images/java.jpg"
+     }
+]

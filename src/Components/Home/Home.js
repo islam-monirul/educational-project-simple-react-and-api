@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import hero from '../../images/hero.jpg'
+import Courses from '../Courses/Courses';
 import './Home.css';
 
 const Home = () => {
@@ -33,6 +34,10 @@ const Home = () => {
                               <h1 className="text-center">Our Services</h1>
                               <p className="text-primary text-center">Best Possible Programming Courses</p>
                          </Row>
+
+                         
+                         <Courses></Courses>
+                         
                     </Container>
                </section>
           </div>
