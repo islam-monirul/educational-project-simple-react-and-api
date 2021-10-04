@@ -14,9 +14,9 @@ const Header = () => {
      }
 
      return (
-          <Navbar bg="light" style={{borderBottom: "1px solid #f6f6f6"}} expand="lg">
+          <Navbar bg="light" style={{borderBottom: "2px solid #f0f0f0"}} expand="lg">
                <Container>
-                    <Navbar.Brand style={{color: "#0d6efd"}}>Coding Universe</Navbar.Brand>
+                    <Navbar.Brand style={{color: "#0d6efd", fontWeight: "500"}}>Coding Universe</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                          <Nav className="ms-auto">
