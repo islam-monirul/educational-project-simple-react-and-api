@@ -1,43 +1,34 @@
 import React from 'react';
-import { Button, Col, Container, Image, Row } from 'react-bootstrap';
-import hero from '../../images/hero.jpg'
+import { Container, Row } from 'react-bootstrap';
 import AllCourses from '../AllCourses/AllCourses';
+import HeroPart from '../HeroPart/HeroPart';
+import WhyChooseUs from '../whyChooseUs/WhyChooseUs';
 import './Home.css';
 
 const Home = () => {
-     const goToGithub = () => {
-          window.open('https://github.com/islam-monirul', '_blank');
-     }
-
      return (
           <div>
-               <section className="heroPart">
-                    <Container>
-                         <Row className="d-flex align-items-center">
-                              <Col md={6}>
-                                   <Image src={hero} fluid />
-                              </Col>
-                              <Col md={6}>
-                                   <h1 className="fw-bold">Find The</h1>
-                                   <h2>Perfect <span className="text-primary">Programming</span></h2>
-                                   <h1 className="fw-bold">Tutorials <span className="fw-normal">Here....</span></h1>
-                                   <p>Programming will be easier then before</p>
-                                   <Button variant="primary" onClick={ () => goToGithub()}>Learn More</Button>
-                              </Col>
-                         </Row>
-                    </Container>
-               </section>
-
-               <section style={{padding: "50px 0", backgroundColor: "#f0f9ff"}}>
+               <HeroPart></HeroPart>
+               {/* services section */}
+               <section style={{padding: "100px 0", backgroundColor: "#f0f9ff"}}>
                     <Container>
                          <Row>
                               <h1 className="text-center">Our Services</h1>
                               <p className="text-primary text-center">Best Possible Programming Courses</p>
                          </Row>
 
-                         
-                         <AllCourses makeSlice={true}></AllCourses>
-                         
+                         <AllCourses makeSlice={true}></AllCourses>   
+                    </Container>
+               </section>
+               
+               {/* why choose us section */}
+               <section style={{padding: "80px 0"}}>
+                    <Container>
+                         <Row>
+                              <p className="text-primary text-center">Coding Universe</p> 
+                              <h1 className="text-center">Why Choose us?</h1>  
+                         </Row>
+                         <WhyChooseUs></WhyChooseUs>
                     </Container>
                </section>
           </div>

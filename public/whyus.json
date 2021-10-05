@@ -1,0 +1,20 @@
+[
+     {
+          "id" : 1,
+          "title" : "Best Online Tutorials",
+          "description" : "You can get the best possible programming tutorials here at Coding Universe.",
+          "img" : "./images/option1.png"
+     },
+     {
+          "id" : 2,
+          "title" : "24/7 Support",
+          "description" : "You can get 24/7 online support here at Coding Universe. So, knock if you want.",
+          "img" : "./images/option2.png"
+     },
+     {
+          "id" : 3,
+          "title" : "Live Forum Support",
+          "description" : "You can get 24/7 live forum support here at Coding Universe. So, knock if you want.",
+          "img" : "./images/option3.png"
+     }
+]
