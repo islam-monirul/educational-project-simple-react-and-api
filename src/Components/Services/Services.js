@@ -12,7 +12,7 @@ const Services = () => {
                               <h1 className="text-center">Our Services</h1>
                          </Row>
 
-                         <AllCourses></AllCourses>
+                         <AllCourses makeSlice={false}></AllCourses>
                     </Container>
                </section>
           </div>

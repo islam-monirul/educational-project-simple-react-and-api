@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import hero from '../../images/hero.jpg'
-import Courses from '../Courses/Courses';
+import AllCourses from '../AllCourses/AllCourses';
 import './Home.css';
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
                          </Row>
 
                          
-                         <Courses></Courses>
+                         <AllCourses makeSlice={true}></AllCourses>
                          
                     </Container>
                </section>
