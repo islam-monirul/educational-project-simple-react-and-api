@@ -17,10 +17,10 @@ const SingleCourse = (props) => {
                     </Card.Body>
                     <Card.Footer className="bg-white py-3 d-flex justify-content-between align-items-center">
                          <div>
-                              <h6 className="text-danger fw-bold">BDT {price}</h6>
+                              <h6 className="text-dark fw-bold">BDT {price}</h6>
                          </div>
                          <div>
-                              <Button variant="dark">Enroll</Button>
+                              <Button variant="outline-dark">Enroll</Button>
                          </div>
                     </Card.Footer>
                </Card>
