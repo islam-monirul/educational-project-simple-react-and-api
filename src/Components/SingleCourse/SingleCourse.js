@@ -4,14 +4,14 @@ import { FaStar } from 'react-icons/fa';
 
 const SingleCourse = (props) => {
      // destructuring
-     const {id, name, details, img, rating, duration, price} = props.course;
+     const {name, details, img, rating, duration, price} = props.course;
      return (
           <Col>
                <Card className="h-100">
                     <Card.Img variant="top" src={img} fluid/>
                     <Card.Body>
                          <p className="text-warning"><FaStar/> {rating}</p>
-                         <h6>{name} {id}</h6>
+                         <h6>{name}</h6>
                          <p>{details}</p>
                          <h6 className="text-dark">Duration : {duration} hrs.</h6>
                     </Card.Body>
