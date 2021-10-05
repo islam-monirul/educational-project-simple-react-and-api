@@ -20,7 +20,7 @@ const SingleCourse = (props) => {
                               <h6 className="text-danger fw-bold">BDT {price}</h6>
                          </div>
                          <div>
-                              <Button variant="primary">Enroll</Button>
+                              <Button variant="dark">Enroll</Button>
                          </div>
                     </Card.Footer>
                </Card>
