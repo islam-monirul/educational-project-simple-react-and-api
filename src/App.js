@@ -12,7 +12,9 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+      {/* Routing */}
       <Router>
+          {/* navingation header */}
           <Header></Header>
           <Switch>
               <Route exact path="/">
@@ -36,6 +38,7 @@ function App() {
               </Route>
           </Switch>
       </Router>
+      {/* footer */}
       <Footer></Footer>
     </div>
   );

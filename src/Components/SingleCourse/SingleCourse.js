@@ -3,6 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 import { FaStar } from 'react-icons/fa';
 
 const SingleCourse = (props) => {
+     // destructuring
      const {name, details, img, rating, duration, price} = props.course;
      return (
           <Col>

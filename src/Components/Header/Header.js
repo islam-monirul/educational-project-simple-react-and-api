@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+     // link style modification function
      const defaultStyle = {
           color: "#000",
           textDecoration: "none"

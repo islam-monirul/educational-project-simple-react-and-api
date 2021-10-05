@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col, Image } from 'react-bootstrap';
 
 const ChooseOption = (props) => {
+     // destructuring
      const {title, description, img} = props.option;
 
      return (

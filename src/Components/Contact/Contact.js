@@ -17,7 +17,7 @@ const Contact = () => {
                     <Container>
                          <Row xs={1} md={3} className="g-4">
                               <Col>
-                                   <Card className="py-5">
+                                   <Card className="py-5 h-100">
                                    <Card.Body>
                                         <Card.Title className="fw-bold text-center">Mail us</Card.Title>
                                         <Card.Text className="text-center">
@@ -27,7 +27,7 @@ const Contact = () => {
                                    </Card>
                               </Col>
                               <Col>
-                                   <Card className="py-5">
+                                   <Card className="py-5 h-100">
                                    <Card.Body>
                                         <Card.Title className="fw-bold text-center">Address</Card.Title>
                                         <Card.Text className="text-center">
@@ -37,7 +37,7 @@ const Contact = () => {
                                    </Card>
                               </Col>
                               <Col>
-                                   <Card className="py-5">
+                                   <Card className="py-5 h-100">
                                    <Card.Body>
                                         <Card.Title className="fw-bold text-center">Phone</Card.Title>
                                         <Card.Text className="text-center">

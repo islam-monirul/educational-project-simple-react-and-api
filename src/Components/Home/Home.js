@@ -8,6 +8,7 @@ import './Home.css';
 const Home = () => {
      return (
           <div>
+               {/* hero part */}
                <HeroPart></HeroPart>
                {/* services section */}
                <section style={{padding: "100px 0", backgroundColor: "#f0f9ff"}}>

@@ -5,6 +5,7 @@ import { Button, Carousel, Col, Container, Image, Row } from 'react-bootstrap';
 import './HeroPart.css';
 
 const HeroPart = () => {
+     // learn more button forwarding function
      const goToGithub = () => {
           window.open('https://github.com/islam-monirul', '_blank');
      }
